@@ -6,10 +6,10 @@ Dette er et enkelt Python-script som fungerer som en autoclicker for nettlesersp
 
 ## Funksjoner
 
-- Starter først når du trykker `s` (starter ikke automatisk).
+- Starter først når du trykker `1` (starter ikke automatisk).
 - Klikker raskt og kontinuerlig på cookien.
-- Pauser og logger antall klikk med `p`.
-- Avslutter programmet helt med ett trykk på `q`.
+- Pauser og logger antall klikk med `2`.
+- Avslutter programmet helt med ett trykk på `3`.
 - Lagrer antall klikk og tidspunkt for hver pause i en database (`click_logs.db`).
 
 ---
