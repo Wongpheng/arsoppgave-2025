@@ -1,1 +1,43 @@
+Hvem er denne autoclickeren for?
+Dette verktøyet er laget for personer som spiller Cookie Clicker eller lignende klikkbaserte spill, der bruk av autoclicker er tillatt. Den er ment for lovlig og ansvarlig bruk i spill hvor automatisering er akseptert.
 
+Hva gjør denne autoclickeren?
+Autoclickeren klikker automatisk med musen på et fast punkt på skjermen. Den kan startes, pauses og avsluttes med hurtigtaster, og lagrer informasjon om klikk i en SQLite-database.
+
+Hvilke taster brukes?
+Tast 1: Start autoclickeren
+
+Tast 2: Pause og lagre antall klikk
+
+Tast 3: Avslutt programmet
+
+Hvor klikker musen?
+Den klikker på skjermkoordinatene (160, 300), tilpasset en skjermoppløsning på 1080p. Dette punktet er valgt fordi det treffer kjeksen i Cookie Clicker på standardoppløsning.
+
+Hva lagres i databasen?
+Når programmet pauses, lagres følgende i databasen:
+
+Tidspunkt for pausen (timestamp)
+
+Antall klikk siden forrige pause
+
+Dette lagres i en databasefil kalt click_logs.db.
+
+Hvordan stopper jeg programmet?
+Trykk på tast 3. Programmet avsluttes og lukker tilkoblingen til databasen.
+
+Krever det noen installasjoner?
+Ja. Du må ha følgende Python-biblioteker installert:
+
+mouse
+
+keyboard
+
+sqlite3 (innebygd i Python)
+
+datetime (innebygd i Python)
+
+Installer nødvendige pakker med pip:
+
+bash/cmd og skriv.
+"pip install mouse keyboard"
