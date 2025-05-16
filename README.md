@@ -27,3 +27,6 @@ Installer nødvendige pakker med pip:
 
 ```bash
 pip install mouse keyboard
+Eller 
+python -m pip install mouse keyboard
+
