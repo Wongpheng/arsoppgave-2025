@@ -1,3 +1,4 @@
+# gammel første utkastet av autoclicker
 import mouse, time, keyboard
 
 xValue = 160
